@@ -1,0 +1,23 @@
+{
+  "name": "dmms-monorepo",
+  "version": "1.0.0",
+  "description": "Digital Microfinance Management System (DMMS) Monorepo",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "start:backend": "npm --prefix backend start",
+    "build:frontend": "npm --prefix frontend run build"
+  },
+  "keywords": [
+    "microfinance",
+    "dmms",
+    "fintech"
+  ],
+  "author": "",
+  "license": "ISC"
+}
